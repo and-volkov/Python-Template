@@ -1,4 +1,4 @@
-VENV = venv
+VENV = $VENV
 PYTHON = $(VENV)/bin/python3
 PIP = $(VENV)/bin/pip
 ENVIRONMENT_VARIABLE_FILE='.env'
@@ -28,6 +28,8 @@ install:
 	pip install ruff
 	# Used for testing
 	pip install pytest
+	# Used for code coverage
+	pip install pytest-cov
 
 freeze: ## Freeze requirements
 freeze:
@@ -41,6 +43,10 @@ clean:
 	rm -rf .pytest_cache
 	# Remove all pycache
 	find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
+
+test: ## Run tests
+test:
+	pytest
 
 build: ## Build docker image
 build:
