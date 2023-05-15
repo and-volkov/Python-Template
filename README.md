@@ -6,7 +6,7 @@
   * `make help` - show all available commands
   * `make init` - initialize venv and install requirements
   * `make install` - install development requirments
-  * `make freeze` - freeze requirements to `requirements.txt
+  * `make freeze` - freeze requirements to requirements.txt
   * `make test` - run tests
   * `make clean` - clean up
   * And several other commands for managing docker containers and images.
