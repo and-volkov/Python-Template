@@ -7,7 +7,7 @@
 * It contains a `Makefile` with the following commands:
   * `make help` - show all available commands
   * `make init` - initialize poetry. You should run this command before all others
-  * `make install` - install development requirments
+  * `make install` - Create `.venv` inside project folder and install all requirements 
   * `make test` - run tests
   * `make clean` - clean up
   * And several other commands for managing docker containers and images.
