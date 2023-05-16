@@ -4,7 +4,7 @@
 * This repository contains a template for new python projects
 * It contains a `Makefile` with the following commands:
   * `make help` - show all available commands
-  * `make init` - initialize venv and install requirements
+  * `make init` - initialize poetry. You should run this command before all others
   * `make install` - install development requirments
   * `make freeze` - freeze requirements to requirements.txt
   * `make test` - run tests
