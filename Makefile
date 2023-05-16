@@ -16,6 +16,7 @@ help:
 
 init: ## sets up environment and installs requirements
 init:
+	pip install poetry
 	poetry init
 
 install: ## Installs development requirments
