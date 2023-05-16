@@ -16,24 +16,12 @@ help:
 
 init: ## sets up environment and installs requirements
 init:
-	python3 -m venv $(VENV)
-	. $(VENV)/bin/activate
-	$(PIP) install --upgrade pip
-	pip install -r requirements.txt
+	poetry init
 
 install: ## Installs development requirments
 install:
-	python -m pip install --upgrade pip
-	# Used for linting
-	pip install ruff
-	# Used for testing
-	pip install pytest
-	# Used for code coverage
-	pip install pytest-cov
-
-freeze: ## Freeze requirements
-freeze:
-	pip freeze > requirements.txt
+	poetry config virtualenvs.in-project true
+	poetry install
 
 clean: ## Remove build and cache files
 clean:
