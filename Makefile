@@ -1,6 +1,3 @@
-VENV = $VENV
-PYTHON = $(VENV)/bin/python3
-PIP = $(VENV)/bin/pip
 ENVIRONMENT_VARIABLE_FILE='.env'
 DOCKER_NAME=$DOCKER_NAME
 DOCKER_TAG=$DOCKER_TAG
@@ -14,17 +11,17 @@ help:
 	@echo ''
 	$(call find.functions)
 
-init: ## sets up environment and installs requirements
+init: ## sets up environment
 init:
 	pip install poetry
 	poetry init
 
-install: ## Installs development requirments
+install: ## Installs development requirements inside project folder
 install:
 	poetry config virtualenvs.in-project true
 	poetry install
 
-clean: ## Remove build and cache files
+clean: ## Remove build, cache and .venv files
 clean:
 	rm -rf *.egg-info
 	rm -rf build
