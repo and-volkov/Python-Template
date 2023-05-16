@@ -161,3 +161,7 @@ cython_debug/
 .idea
 .DS_Store
 .env
+
+poetry.lock
+
+__pycache__/
