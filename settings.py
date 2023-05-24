@@ -60,10 +60,10 @@ LOGGING_CONFIG = {
         },
     },
     "loggers": {
-        '': {  # root logger
-            'handlers': ['default'],
-            'level': 'INFO',
-            'propagate': False
+        "": {  # root logger
+            "handlers": ["default"],
+            "level": "INFO",
+            "propagate": False
         },
         "__main__": {  # if __name__ == "__main__"
             "handlers": ["default", "fileHandler"],
