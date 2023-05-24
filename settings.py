@@ -14,7 +14,7 @@ class BaseSettings(pydantic.BaseSettings):
         env_file_encoding = "utf-8"
 
 
-class LogConfig(pydantic.BaseSettings):
+class LogConfig(BaseSettings):
     FILE_NAME: str = "FILE_NAME"
     FILE_PATH: str = "PATH"
     MESSAGE_FORMAT: str = "FORMAT"
