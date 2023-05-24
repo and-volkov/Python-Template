@@ -160,8 +160,9 @@ cython_debug/
 #.idea/
 .idea
 .DS_Store
-.env.example
 
 poetry.lock
 
 __pycache__/
+
+.ruff_cache
