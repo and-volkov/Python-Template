@@ -1,5 +1,5 @@
-2023-05-24 22:51:18 DEBUG -> LOGGER: __main__ | MODULE: main | FUNCTION: logs -> debug
-2023-05-24 22:51:18 INFO -> LOGGER: __main__ | MODULE: main | FUNCTION: logs -> info
-2023-05-24 22:51:18 WARNING -> LOGGER: __main__ | MODULE: main | FUNCTION: logs -> warning
-2023-05-24 22:51:18 ERROR -> LOGGER: __main__ | MODULE: main | FUNCTION: logs -> error
-2023-05-24 22:51:18 CRITICAL -> LOGGER: __main__ | MODULE: main | FUNCTION: logs -> critical
+2023-05-24 23:01:27 DEBUG -> LOGGER: __main__ | MODULE: main | FUNCTION: logs -> debug
+2023-05-24 23:01:27 INFO -> LOGGER: __main__ | MODULE: main | FUNCTION: logs -> info
+2023-05-24 23:01:27 WARNING -> LOGGER: __main__ | MODULE: main | FUNCTION: logs -> warning
+2023-05-24 23:01:27 ERROR -> LOGGER: __main__ | MODULE: main | FUNCTION: logs -> error
+2023-05-24 23:01:27 CRITICAL -> LOGGER: __main__ | MODULE: main | FUNCTION: logs -> critical
