@@ -120,6 +120,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.env
 .env.example
 .venv
 env/
@@ -166,3 +167,5 @@ poetry.lock
 __pycache__/
 
 .ruff_cache
+data/
+src/app/logs/*.log
